@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive team section</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'style2.css' %}">
+
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+	body {
+	  background-image: url('{% static 'ourteambg.png' %}');
+	}
+</style>
+<body>
+	
+
+	<section class="team">
+		<div class="center">
+			<h1>Our Team</h1>
+		</div>
+
+		<div class="team-content">
+			<div class="box">
+				<img src="{% static 'aryan.png' %}">
+				<h3>Aryan Sehgal</h3>
+				<h5>Frontend Developer</h5>
+				<div class="icons">
+					<a href="https://www.linkedin.com/in/aryan-sehgal-948628252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="ri-linkedin-fill"></i></a>
+					<a href="https://www.instagram.com/sehgalaryan10?igsh=MTY0eXVoMGJ0ZTIyZg%3D%3D&utm_source=qr"><i class="ri-instagram-fill"></i></a>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="{% static 'Aarjav.png' %}">
+				<h3>Aarjav Jain</h3>
+				<h5>Backend Developer</h5>
+				<div class="icons">
+					<a href="https://www.linkedin.com/in/aarjav-jain-07"><i class="ri-linkedin-fill"></i></a>
+					<a href="https://www.instagram.com/.aarjav./"><i class="ri-instagram-fill"></i></a>
+				</div>
+			</div>
+
+			
+		</div>
+	</section>
+
+</body>
+</html>
